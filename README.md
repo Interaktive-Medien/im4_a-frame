@@ -21,3 +21,6 @@ Teil 10: Parallele und serielle Kamerafahrt, index_10.html
 Übung 7: Video Steuerung: Bauen Sie eine Videosteuerung. Beim Blick auf die linke Box startet das Video, beim Blick auf die rechte Box stoppt Video, uebung_7.html  
 ## Tutorial
 <a href="https://www.youtube.com/playlist?list=PLS1hZNcGg7eG9bzgOAb40ewHcEnFGfC1v" target="_blank">Youtube-Playlist</a>
+## Hinweise
+- Wenn im VR-Mode seltsame, zackige Formen erscheinen: <i>aframe.min_1_1_0.js</i> verwenden  
+- Wenn bei iOS im VR-Mode der Cursor verschwindet: <i>aframe.min_1_0_4.js</i> verwenden  

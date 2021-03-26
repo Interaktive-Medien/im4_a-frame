@@ -1,5 +1,6 @@
 # Interaktive Medien IV, A-Frame
 A-Frame Übungen Interaktive Medien IV, FS 2021
+Version 1.0.4 von A-Frame, getestet mit iOS 14.4.1 und Android 10.0
 ## Beispiel Sonnensystem
 Teil 1: Gestirne platzieren (nur x-Position ändern) und einfärben, index.html  
 Teil 2: Hintergrund und Texturen einfügen, index_2.html  
@@ -7,7 +8,7 @@ Teil 3: Erde rotieren (Animation), index_3.html
 Teil 4: Bewegung Erde nur, wenn man sie mit Cursor anschaut (Interaktivität), index_4.html  
 Teil 5: Grösse Mars mit eigenem Cursor steuern (Interaktivität mit Javascript), index_5.html  
 Teil 6: Teleporting, Kamera an anderer Stelle platzieren, index_6.html  
-Teil 7: Hintergrundmusik starten, wenn man Mars anschaut, index_7.html  
+Teil 7: Hintergrundmusik starten, wenn man Mars anschaut, index_7.html (geht nicht auf iOS)  
 Teil 8: Von https://clara.io den Saturn als .obj einbinden, index_8.html  
 Teil 9: Ganzes Universum rotieren, index_9.html  
 Teil 10: Parallele und serielle Kamerafahrt, index_10.html  

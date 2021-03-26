@@ -1,5 +1,5 @@
 # Interaktive Medien IV, A-Frame
-A-Frame Übungen Interaktive Medien IV, FS 2021
+A-Frame Übungen Interaktive Medien IV, FS 2021  
 Version 1.0.4 von A-Frame, getestet mit iOS 14.4.1 und Android 10.0
 ## Beispiel Sonnensystem
 Teil 1: Gestirne platzieren (nur x-Position ändern) und einfärben, index.html  

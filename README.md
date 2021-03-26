@@ -10,6 +10,7 @@ Teil 4: Bewegung Erde nur, wenn man sie mit Cursor anschaut (Interaktivität), i
 Teil 5: Grösse Mars mit eigenem Cursor steuern (Interaktivität mit Javascript), index_5.html  
 Teil 6: Teleporting, Kamera an anderer Stelle platzieren, index_6.html  
 Teil 7: Hintergrundmusik starten, wenn man Mars anschaut, index_7.html (geht nicht auf iOS)  
+Teil 7 für iOS: index_7_ios.html mit Schaltfläche für den Audio-Start  
 Teil 8: Von https://clara.io den Saturn als .obj einbinden, index_8.html  
 Teil 9: Ganzes Universum rotieren, index_9.html  
 Teil 10: Parallele und serielle Kamerafahrt, index_10.html  

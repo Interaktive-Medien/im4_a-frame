@@ -1,0 +1,14 @@
+Bemerkungen zu A-Frame:
+1) Man kann bei A-Frame im Browser die WASD-Tasten zur Navigation benutzen:
+    a nach links; d nach rechts, w vorwärts; s rückwärts
+
+2) A-Frame Visual Inspector: CTRL Alt i (Windows), CTRL Option i (Mac)
+
+3) Beispiele bitte auf einem Webserver testen
+
+4) Der Standard ist 1 (Meter)
+    Beispiel: Breite/Höhe/Tiefe einer Box: 1 (Meter)
+    Beispiel: Radius einer Kugel /Sphere: 1 (Meter)
+    
+5) Position im Raum (x, y und z): 0
+    Die Position wird von der Mitte des Körpers aus gerechnet

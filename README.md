@@ -10,7 +10,7 @@ Teil 4: Bewegung Erde nur, wenn man sie mit Cursor anschaut (Interaktivität), i
 Teil 5: Grösse Mars mit eigenem Cursor steuern (Interaktivität mit Javascript), index_5.html  
 Teil 6: Teleporting, Kamera an anderer Stelle platzieren, index_6.html  
 Teil 7: Hintergrundmusik starten, wenn man Mars anschaut, index_7.html (geht nicht auf iOS)  
-Teil 7 für iOS: index_7_ios.html mit Schaltfläche für den Audio-Start  
+Teil 7 für iOS: index_7_ios.html mit Schaltfläche für den Audio-Start (geht auch für Android)  
 Teil 8: Von https://clara.io den Saturn als .obj einbinden, index_8.html  
 Teil 9: Ganzes Universum rotieren, index_9.html  
 Teil 10: Parallele und serielle Kamerafahrt, index_10.html  
@@ -28,8 +28,8 @@ Teil 10: Parallele und serielle Kamerafahrt, index_10.html
 - Wenn im VR-Mode seltsame, zackige Formen erscheinen: <i>aframe.min_1_1_0.js</i> verwenden  
 - Wenn bei iOS im VR-Mode der Cursor verschwindet: <i>aframe.min_1_0_4.js</i> verwenden (<a href="https://github.com/aframevr/aframe/issues/4825" target="_blank">Quelle</a>) 
 - iOS hat ein Problem mit Audio-Dateien: "Playing sound on iOS — in any browser — requires a physical user interaction. This is a browser limitation, and internal A-Frame events (like fusing cursors) do not count as interaction. Ways to deal with this include using a Begin Experience button to start ambient music, or creating audio sprites with libraries like <a href="https://github.com/goldfire/howler.js" target="_blank">Howler.js</a>" (<a target="_blank" href="https://aframe.io/docs/1.2.0/components/sound.html">Quelle</a>). Ist im Sonnensystem-Beispiel "Teil 7 für iOS" implementiert
-- Beste Lösung (in <i>allen</i> Beispielen implementiert): aframe.min_1_0_4.js verwenden
-## Videos und Audio
+- Beste Lösung (im <i>allen</i> Beispiel Sonnensystem und den Übungen implementiert): <i>aframe.min_1_0_4.js</i> verwenden
+## Video und Audio
 - Beispiel Video mit Ton <i>video_test_ios.html</i> funktioniert auf iOS und Android  
 - Beispiel Ton <i>index_7_ios.html</i> funktioniert auf iOS und Android
 ## Interaktive Ausstellung

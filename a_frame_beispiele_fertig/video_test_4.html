@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Video Testdatei 3</title>
+      <!-- Video startet und stoppt beim Anschauen, resp. Wegschauen der Video-Fläche -->
+      <!-- zusätzlich mit Poster -->
+    <script src="js/aframe.min.js"></script>
+  </head>
+  <body>
+
+    <a-scene>
+      <a-assets>
+         <video id="videoAFrame" src="videos/00_Einfuehrung_Beispiel_Sonnensystem.mp4" loop="true"></video>
+      </a-assets>
+
+        <a-entity id="camera" position="0 0 10">
+            <a-camera>
+                <a-cursor
+                cursor="fuse:true; fuseTimeout:1000"
+                geometry="primitive: ring; radius-outer: 0.02; radius-inner: 0.01;"
+                material="color: black"></a-cursor>
+            </a-camera>
+        </a-entity>
+
+        <a-entity>
+
+          <a-entity>
+            <a-image id="videoPoster" src="videos/poster.jpg" width="4" height="2" position="0 0 0.1"></a-image> 
+            <a-video id="videoBox" src="#videoAFrame" width="4" height="2" position="0 0 0"></a-video>
+          </a-entity>
+        </a-entity>
+      
+        <a-sky color="grey"></a-sky>
+    </a-scene>
+    <script>
+
+      let video =  document.querySelector("#videoAFrame");
+      let start =  document.querySelector('#videoPoster');
+      let stop =   document.querySelector('#videoBox');
+
+      start.addEventListener("click", function(){ // mouseenter geht auch
+        videoPoster.setAttribute("visible", "false");  
+        video.play();
+      })
+
+      stop.addEventListener("mouseleave", function(){
+        video.pause();
+      })
+    </script>
+  </body>
+</html>
